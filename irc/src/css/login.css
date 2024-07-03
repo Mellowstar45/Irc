@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/3053366.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login {
+    background-color: #323338;
+    width: 30vw;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.submit {
+    width: 100%;
+    background-color: #7289d9;
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.user {
+    width: 100%;
+    display: block;
+    color: #a2a3a7;
+}
